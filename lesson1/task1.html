@@ -1,10 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="main.js"></script>
 </head>
 <body>
-$END$
+<h1>First Homework JS</h1>
+<h2 id ="persona"> Your personal information:</h2>
+<h3 id = "name">Your name : </h3>
+<h3 id = "surname">Your surname: </h3>
+<h3 id ="age">Your age: </h3>
+<script>
+    {
+        let info ;
+        let h3;
+        info = prompt("What is your name?");
+        h3 = document.getElementById('name');
+        h3.append(info );
+        console.log(`Your name is ${info}`);
+
+        info = prompt("What is your surname ?");
+        h3 = document.getElementById('surname');
+        h3.append(info );
+        console.log(`Your surname is ${info}`);
+
+        info = prompt("What is your age?");
+        h3 = document.getElementById('age');
+        h3.append(info );
+        console.log(`Your age is ${info}`);
+
+    }
+
+</script>
+
 </body>
 </html>
