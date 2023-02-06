@@ -1,0 +1,35 @@
+@media (max-width: 600px) {
+    .products {
+        justify-content: center;
+        text-align: center;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .product-card {
+        width: 45vw;
+    }
+
+    img {
+        width: 40vw;
+        height: 45vw;
+        margin: 0 2.5vw 2.5vw;
+    }
+}
+
+@media (max-width: 330px) {
+    .products {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .product-card {
+        width: 90vw;
+    }
+
+    img {
+        width: 80vw;
+        height: 80vw;
+        margin: 0 5vw 5vw;
+    }
+}

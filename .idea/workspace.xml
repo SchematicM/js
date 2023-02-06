@@ -5,6 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5652378b-ba1b-47e0-963c-61b49dd6c7c6" name="Changes" comment="[lesson2]: Added implementation of home tasks">
+      <change afterPath="$PROJECT_DIR$/lesson3/TASKS/additional/add3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/TASKS/additional/additional 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/TASKS/additional/additional1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/TASKS/additional/additional3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/TASKS/task.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/scripts/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/scripts/products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/styles/products.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/styles/products_media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +28,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -34,24 +46,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/mkhoma.appwell/IdeaProjects/bs/js",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mkhoma.appwell/IdeaProjects/bs/js&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson3/TASKS" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/lesson2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson3/styles" />
+      <recent name="$PROJECT_DIR$/lesson3/scripts" />
+      <recent name="$PROJECT_DIR$/lesson3" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -66,6 +85,12 @@
       <workItem from="1675177283650" duration="9000" />
       <workItem from="1675200270317" duration="1985000" />
       <workItem from="1675278483291" duration="5777000" />
+      <workItem from="1675447314529" duration="319000" />
+      <workItem from="1675683018241" duration="1305000" />
+      <workItem from="1675695651995" duration="17000" />
+      <workItem from="1675706636223" duration="2176000" />
+      <workItem from="1675710235787" duration="2790000" />
+      <workItem from="1675713214542" duration="1682000" />
     </task>
     <task id="LOCAL-00001" summary="[lesson1]: Added implementation of advanced task">
       <created>1675202075524</created>
@@ -81,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675283677078</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[lesson2]: Added implementation of home tasks">
+      <created>1675447615030</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675447615030</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

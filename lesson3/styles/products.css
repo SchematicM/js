@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 24px;
+}
+
+.product-card {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+    border-style: outset;
+    border-radius: 10px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    margin: 0 10px 10px;
+    border-radius: 10px;
+    border-style: inset;
+}
+
+h3 {
+    margin-top: 16px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
