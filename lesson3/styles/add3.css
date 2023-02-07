@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.wrap{
+    display: flex;
+    padding-top: calc(10vw/5) ;
+    padding-bottom:calc(10vw/5) ;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    row-gap:10px ;
+}
+
+.post-card{
+    width: 17vw;
+    padding: 1vw;
+    border-style: outset;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+@media (max-width: 666px) {
+    .post-card{
+        width: 45vw;
+    }
+}

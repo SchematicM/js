@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5652378b-ba1b-47e0-963c-61b49dd6c7c6" name="Changes" comment="[lesson3]: Added implementation of additional1, basic structure for another additional tasks">
-      <change afterPath="$PROJECT_DIR$/lesson3/additional3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/aditional1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/scripts/additional1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/scripts/additional3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/scripts/add3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/scripts/additional2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/styles/add3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/styles/additional2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson3/TASKS/additional/add3.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/add3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson3/TASKS/additional/additional 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/additional 2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/add3.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/add3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/additional 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/additional 2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/scripts/additional3.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/scripts/additional3.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -68,6 +69,16 @@
       <recent name="$PROJECT_DIR$/lesson3/scripts" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="additional3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/js/lesson3/additional3.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.additional3.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -85,7 +96,10 @@
       <workItem from="1675695651995" duration="17000" />
       <workItem from="1675706636223" duration="2176000" />
       <workItem from="1675710235787" duration="2790000" />
-      <workItem from="1675713214542" duration="9320000" />
+      <workItem from="1675713214542" duration="9384000" />
+      <workItem from="1675784839276" duration="7329000" />
+      <workItem from="1675796409944" duration="424000" />
+      <workItem from="1675796838041" duration="6958000" />
     </task>
     <task id="LOCAL-00001" summary="[lesson1]: Added implementation of advanced task">
       <created>1675202075524</created>
@@ -115,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675714941637</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[lesson3]: Added implementation of additional1, basic structure for another additional tasks">
+      <created>1675728944462</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675728944462</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
