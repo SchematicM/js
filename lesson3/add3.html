@@ -2,15 +2,15 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Title</title>
+        <title>add 3</title>
     </head>
     <body>
         <!--template 1.1-->
-        <div class="wrap">
-            <div class="post-card">
-                <h3>ID - TITLE</h3>
-                <p>BODY</p>
-            </div>
+<!--        <div class="wrap">-->
+<!--            <div class="post-card">-->
+<!--                <h3>ID - TITLE</h3>-->
+<!--                <p>BODY</p>-->
+<!--            </div>-->
 
             <!--
             ...
@@ -19,14 +19,14 @@
             other posts
             -->
 
-        </div>
+<!--        </div>-->
 
 
         <script>
 			/*За допомогою циклу вивести всю інформацію про пости використовуючи шаблон Template 1.1.
 			* ЗА допомоги стилів побудувати структуру "сітки" по 5 об'єктів в лінію
 			* */
-			[
+			let users = [
 				{
 					userId: 1,
 					id: 1,
@@ -628,6 +628,20 @@
 					body: 'cupiditate quo est a modi nesciunt soluta\nipsa voluptas error itaque dicta in\nautem qui minus magnam et distinctio eum\naccusamus ratione error aut'
 				}
 			];
+            document.write('<div className="wrap">')
+            for (const user of users) {
+                document.write(`
+                   <div className="post-card">
+                        <h3>${user.id} - ${user.title}</h3>
+                        <p>${user.body}</p>
+                `)
+            }
+
+
+
+
+                        document.write('</div>');
+
         </script>
     </body>
 </html>
