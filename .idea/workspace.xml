@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5652378b-ba1b-47e0-963c-61b49dd6c7c6" name="Changes" comment="[lesson3]: Added implementation of additional1, basic structure for another additional tasks">
-      <change afterPath="$PROJECT_DIR$/lesson3/scripts/add3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/scripts/additional2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/styles/add3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/styles/additional2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson3/add3.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/add3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson3/additional 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/additional 2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson3/scripts/additional3.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/scripts/additional3.js" afterDir="false" />
-    </list>
+    <list default="true" id="5652378b-ba1b-47e0-963c-61b49dd6c7c6" name="Changes" comment="[lesson5]: Completed home tasks" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,9 +13,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -99,7 +90,9 @@
       <workItem from="1675713214542" duration="9384000" />
       <workItem from="1675784839276" duration="7329000" />
       <workItem from="1675796409944" duration="424000" />
-      <workItem from="1675796838041" duration="6958000" />
+      <workItem from="1675796838041" duration="10669000" />
+      <workItem from="1675849109052" duration="87000" />
+      <workItem from="1675942255318" duration="1574000" />
     </task>
     <task id="LOCAL-00001" summary="[lesson1]: Added implementation of advanced task">
       <created>1675202075524</created>
@@ -136,7 +129,28 @@
       <option name="project" value="LOCAL" />
       <updated>1675728944462</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[lesson3]: Completed implementation af all additional tasks">
+      <created>1675804376282</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675804376282</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[lesson4]: Completed home tasks">
+      <created>1675848995833</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675848995833</updated>
+    </task>
+    <task id="LOCAL-00008" summary="[lesson5]: Completed home tasks">
+      <created>1675943857830</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675943857830</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +161,9 @@
     <MESSAGE value="[lesson2]: Added implementation of home tasks" />
     <MESSAGE value="[lesson3]: Added implementation of main home tasks" />
     <MESSAGE value="[lesson3]: Added implementation of additional1, basic structure for another additional tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="[lesson3]: Added implementation of additional1, basic structure for another additional tasks" />
+    <MESSAGE value="[lesson3]: Completed implementation af all additional tasks" />
+    <MESSAGE value="[lesson4]: Completed home tasks" />
+    <MESSAGE value="[lesson5]: Completed home tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="[lesson5]: Completed home tasks" />
   </component>
 </project>
