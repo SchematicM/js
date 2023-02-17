@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5652378b-ba1b-47e0-963c-61b49dd6c7c6" name="Changes" comment="[lesson5]: Implemented additional tasks">
-      <change afterPath="$PROJECT_DIR$/lesson6/additional.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6/main.js" afterDir="false" />
+    <list default="true" id="5652378b-ba1b-47e0-963c-61b49dd6c7c6" name="Changes" comment="[lesson6]: Implemented home tasks">
+      <change afterPath="$PROJECT_DIR$/lesson6/additionalTasks.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +65,11 @@
       <recent name="$PROJECT_DIR$/lesson3/scripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main.js">
+  <component name="RunManager" selected="Node.js.additionalTasks.js">
     <configuration name="additional3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/js/lesson3/additional3.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="additionalTasks.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lesson6/additionalTasks.js" working-dir="$PROJECT_DIR$/lesson6">
       <method v="2" />
     </configuration>
     <configuration name="additional.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lesson5/additional.js" working-dir="$PROJECT_DIR$/lesson5">
@@ -81,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.additionalTasks.js" />
         <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.additional.js" />
         <item itemvalue="Node.js.tasks.js" />
@@ -115,7 +118,8 @@
       <workItem from="1676309300991" duration="87000" />
       <workItem from="1676310415178" duration="3466000" />
       <workItem from="1676482760675" duration="220000" />
-      <workItem from="1676648143704" duration="5868000" />
+      <workItem from="1676648143704" duration="6597000" />
+      <workItem from="1676656071908" duration="13190000" />
     </task>
     <task id="LOCAL-00001" summary="[lesson1]: Added implementation of advanced task">
       <created>1675202075524</created>
@@ -187,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676316077770</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="[lesson6]: Implemented home tasks">
+      <created>1676654193549</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676654193549</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +213,7 @@
     <MESSAGE value="[lesson4]: Completed home tasks" />
     <MESSAGE value="[lesson5]: Completed home tasks" />
     <MESSAGE value="[lesson5]: Implemented additional tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="[lesson5]: Implemented additional tasks" />
+    <MESSAGE value="[lesson6]: Implemented home tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="[lesson6]: Implemented home tasks" />
   </component>
 </project>

@@ -1,6 +1,6 @@
 // - Знайти та вивести довижину настипних стрінгових значень
 // 'hello world', 'lorem ipsum', 'javascript is cool'
-const greeting =  'hello world';
+const greeting = 'hello world';
 const fish = 'lorem ipsum';
 const js = 'javascript is cool';
 console.log(greeting.length);
@@ -14,7 +14,7 @@ console.log(fish.toUpperCase());
 console.log(js.toUpperCase());
 // - Перевести до нижнього регістру настипні стрінгові значення
 // 'HELLO WORLD', 'LOREM IPSUM', 'JAVASCRIPT IS COOL'
-const greetingUpperCase =  'HELLO WORLD';
+const greetingUpperCase = 'HELLO WORLD';
 const fishUpperCase = 'LOREM IPSUM';
 const jsUpperCase = 'JAVASCRIPT IS COOL';
 console.log(greetingUpperCase.toLowerCase());
@@ -31,26 +31,24 @@ console.log(stringToarray(st));
 // let arr = stringToarray(str); ['Ревуть', 'воли', 'як', 'ясла', 'повні']
 //
 // - є масив чисел [10,8,-7,55,987,-1011,0,1050,0] . за допомоги map  перетворити всі об'єкти в масиві на стрінгові.
-let numbers = [10,8,-7,55,987,-1011,0,1050,0];
+let numbers = [10, 8, -7, 55, 987, -1011, 0, 1050, 0];
 const numToString = numbers.map(value => value.toString())
 console.log(numToString);
 
 // - створити функцію sortNums(direction), яка прймає масив чисел, та сортує його від більшого до меньшого,
 // або навпаки в залежності від значення аргументу direction.
-     let nums = [11,21,3];
-     const sortNums = (nums, direction) => {
-         if(direction === 'ascending'){
-             console.log(nums.sort((a, b) => a - b));
-         }
-         else if (direction === 'descending'){
-             console.log(nums.sort((a, b) => b - a));
-         }
-         else {
-             console.log("WTF???")
-         }
+let nums = [11, 21, 3];
+const sortNums = (nums, direction) => {
+    if (direction === 'ascending') {
+        console.log(nums.sort((a, b) => a - b));
+    } else if (direction === 'descending') {
+        console.log(nums.sort((a, b) => b - a));
+    } else {
+        console.log("WTF???")
+    }
 }
- sortNums(nums,'ascending') // [3,11,21]
- sortNums(nums,'descending') // [21,11,3]
+sortNums(nums, 'ascending') // [3,11,21]
+sortNums(nums, 'descending') // [21,11,3]
 
 // ==========================
 // - є масив
@@ -296,96 +294,96 @@ console.log(cards.filter(value => {
 // }
 
 const reducedCards = cards.reduce((accumulator, card) => {
-        if (card.cardSuit === 'spade') {
-            accumulator.spades.push(card);
-        } else if (card.cardSuit === 'diamond') {
-            accumulator.diamonds.push(card);
-        } else if (card.cardSuit === 'heart') {
-            accumulator.hearts.push(card);
-        } else  {
-            accumulator.clubs.push(card);
-        }
-        return accumulator;
-    }, {spades:[], diamonds:[], hearts:[], clubs:[]});
+    if (card.cardSuit === 'spade') {
+        accumulator.spades.push(card);
+    } else if (card.cardSuit === 'diamond') {
+        accumulator.diamonds.push(card);
+    } else if (card.cardSuit === 'heart') {
+        accumulator.hearts.push(card);
+    } else {
+        accumulator.clubs.push(card);
+    }
+    return accumulator;
+}, {spades: [], diamonds: [], hearts: [], clubs: []});
 console.log(reducedCards);
 // =========================
 //     взяти з arrays.js (який лежить в папці 2023 plan) масив coursesArray
-// let coursesArray = [
-//     {
-//         title: 'JavaScript Complex',
-//         monthDuration: 5,
-//         hourDuration: 909,
-//         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'node.js']
-//     },
-//     {
-//         title: 'Java Complex',
-//         monthDuration: 6,
-//         hourDuration: 909,
-//         modules: ['html',
-//             'css',
-//             'js',
-//             'mysql',
-//             'mongodb',
-//             'angular',
-//             'aws',
-//             'docker',
-//             'git',
-//             'java core',
-//             'java advanced']
-//     },
-//     {
-//         title: 'Python Complex',
-//         monthDuration: 6,
-//         hourDuration: 909,
-//         modules: ['html',
-//             'css',
-//             'js',
-//             'mysql',
-//             'mongodb',
-//             'angular',
-//             'aws',
-//             'docker',
-//             'python core',
-//             'python advanced']
-//     },
-//     {
-//         title: 'QA Complex',
-//         monthDuration: 4,
-//         hourDuration: 909,
-//         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'git', 'QA/QC']
-//     },
-//     {
-//         title: 'FullStack',
-//         monthDuration: 7,
-//         hourDuration: 909,
-//         modules: ['html',
-//             'css',
-//             'js',
-//             'mysql',
-//             'mongodb',
-//             'react',
-//             'angular',
-//             'aws',
-//             'docker',
-//             'git',
-//             'node.js',
-//             'python',
-//             'java']
-//     },
-//     {
-//         title: 'Frontend',
-//         monthDuration: 4,
-//         hourDuration: 909,
-//         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
-//     }
-// ];
-// // --написати пошук всіх об'єктів, в який в modules є sass
-// console.log(coursesArray.filter(value => {
-//     if(value.modules.some(item => item === 'sass'))
-//         return value;
-// }));
-// // --написати пошук всіх об'єктів, в який в modules є docker
-// console.log(coursesArray.filter(value => {
-//     if(value.modules.some(item => item === 'docker'))
-//         return value;
-// }));
+let coursesArray = [
+    {
+        title: 'JavaScript Complex',
+        monthDuration: 5,
+        hourDuration: 909,
+        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'node.js']
+    },
+    {
+        title: 'Java Complex',
+        monthDuration: 6,
+        hourDuration: 909,
+        modules: ['html',
+            'css',
+            'js',
+            'mysql',
+            'mongodb',
+            'angular',
+            'aws',
+            'docker',
+            'git',
+            'java core',
+            'java advanced']
+    },
+    {
+        title: 'Python Complex',
+        monthDuration: 6,
+        hourDuration: 909,
+        modules: ['html',
+            'css',
+            'js',
+            'mysql',
+            'mongodb',
+            'angular',
+            'aws',
+            'docker',
+            'python core',
+            'python advanced']
+    },
+    {
+        title: 'QA Complex',
+        monthDuration: 4,
+        hourDuration: 909,
+        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'git', 'QA/QC']
+    },
+    {
+        title: 'FullStack',
+        monthDuration: 7,
+        hourDuration: 909,
+        modules: ['html',
+            'css',
+            'js',
+            'mysql',
+            'mongodb',
+            'react',
+            'angular',
+            'aws',
+            'docker',
+            'git',
+            'node.js',
+            'python',
+            'java']
+    },
+    {
+        title: 'Frontend',
+        monthDuration: 4,
+        hourDuration: 909,
+        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
+    }
+];
+// --написати пошук всіх об'єктів, в який в modules є sass
+console.log(coursesArray.filter(value => {
+    if (value.modules.some(item => item === 'sass'))
+        return value;
+}));
+// --написати пошук всіх об'єктів, в який в modules є docker
+console.log(coursesArray.filter(value => {
+    if (value.modules.some(item => item === 'docker'))
+        return value;
+}));
