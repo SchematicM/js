@@ -259,7 +259,7 @@ const cards = [
         color: 'black'
     }
 ];
-//console.log(cards.length);
+console.log(cards.length);
 // - знайти піковий туз
 console.log(cards.find(value => value.cardSuit === 'spade' && value.value === 'ace'));
 // - всі шістки
@@ -272,7 +272,8 @@ console.log(cards.filter(value => value.cardSuit === 'diamond'));
 
 // - всі трефи від 9 та більше
 console.log(cards.filter(value => {
-    if (typeof value.value === "number" && value.value > 8 || typeof value.value === "string")
+    if ((typeof value.value === "number" && value.value > 8 || typeof value.value === "string")
+        && value.cardSuit === 'clubs')
         return value;
 }));
 
