@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5652378b-ba1b-47e0-963c-61b49dd6c7c6" name="Changes" comment="[lesson6]: Implemented additionalTasks.js tasks" />
+    <list default="true" id="5652378b-ba1b-47e0-963c-61b49dd6c7c6" name="Changes" comment="[lesson6]: fixing task with clubs, bigger then 8 logging">
+      <change afterPath="$PROJECT_DIR$/lesson8/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson6/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,14 +66,14 @@
       <recent name="$PROJECT_DIR$/lesson3/scripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main.js">
-    <configuration name="additional3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/js/lesson3/additional3.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.main.js (1)">
     <configuration name="additionalTasks.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lesson6/additionalTasks.js" working-dir="$PROJECT_DIR$/lesson6">
       <method v="2" />
     </configuration>
     <configuration name="additional.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lesson5/additional.js" working-dir="$PROJECT_DIR$/lesson5">
+      <method v="2" />
+    </configuration>
+    <configuration name="main.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lesson8/main.js" working-dir="$PROJECT_DIR$/lesson8">
       <method v="2" />
     </configuration>
     <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lesson6/main.js" working-dir="$PROJECT_DIR$/lesson6">
@@ -79,11 +84,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main.js (1)" />
         <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.additionalTasks.js" />
         <item itemvalue="Node.js.additional.js" />
         <item itemvalue="Node.js.tasks.js" />
-        <item itemvalue="JavaScript Debug.additional3.html" />
       </list>
     </recent_temporary>
   </component>
@@ -116,6 +121,9 @@
       <workItem from="1676482760675" duration="220000" />
       <workItem from="1676648143704" duration="6597000" />
       <workItem from="1676656071908" duration="13456000" />
+      <workItem from="1676888484748" duration="615000" />
+      <workItem from="1676910905860" duration="4407000" />
+      <workItem from="1676997656972" duration="2171000" />
     </task>
     <task id="LOCAL-00001" summary="[lesson1]: Added implementation of advanced task">
       <created>1675202075524</created>
@@ -201,7 +209,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676672569897</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="[lesson6]: fixing task with clubs, bigger then 8 logging">
+      <created>1676888808750</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676888808750</updated>
+    </task>
+    <task id="LOCAL-00014" summary="[lesson6]: fixing task with clubs, bigger then 8 logging">
+      <created>1676888826533</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1676888826533</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +240,8 @@
     <MESSAGE value="[lesson5]: Implemented additional tasks" />
     <MESSAGE value="[lesson6]: Implemented home tasks" />
     <MESSAGE value="[lesson6]: Implemented additionalTasks.js tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="[lesson6]: Implemented additionalTasks.js tasks" />
+    <MESSAGE value="[lesson6]: fixed task with clubs, bigger then 8 logging" />
+    <MESSAGE value="[lesson6]: fixing task with clubs, bigger then 8 logging" />
+    <option name="LAST_COMMIT_MESSAGE" value="[lesson6]: fixing task with clubs, bigger then 8 logging" />
   </component>
 </project>

@@ -384,7 +384,4 @@ console.log(coursesArray.filter(value => {
         return value;
 }));
 // --написати пошук всіх об'єктів, в який в modules є docker
-console.log(coursesArray.filter(value => {
-    if (value.modules.some(item => item === 'docker'))
-        return value;
-}));
+console.log(coursesArray.filter(value => value.modules.includes('docker')));
