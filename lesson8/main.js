@@ -72,6 +72,7 @@ function Car(model, brand, year, maxSpeed, engineCapacity) {
     this.maxSpeed = maxSpeed;
     this.engineCapacity = engineCapacity;
 }
+
 // додати в об'єкт функції:
 // -- drive () - яка виводить в консоль `їдемо зі швидкістю ${максимальна швидкість} на годину`
 Car.prototype.drive = function () {
@@ -114,9 +115,9 @@ console.log('First init : ', bmw);
 bmw.drive();
 bmw.info();
 bmw.increaseMaxSpeed(20);
-console.log('Increased Speed : ',bmw);
+console.log('Increased Speed : ', bmw);
 bmw.changeYear(2022);
-console.log('Changed Year : ',bmw);
+console.log('Changed Year : ', bmw);
 const driver = {
     name: 'Vasyl',
     surname: 'Pypkin',
@@ -125,8 +126,7 @@ const driver = {
     licenceNumber: '000238746838'
 }
 bmw.addDriver(driver);
-console.log('Added driver : ',bmw);
-
+console.log('Added driver : ', bmw);
 
 
 //
@@ -186,15 +186,16 @@ class Auto {
         this.driver = driver;
     }
 }
+
 let audi = new Auto('Q5', 'Audi', 2018, 190, 2.0);
 console.log('First init : ', audi);
 // console.log(bmw.info());
 audi.drive();
 audi.info();
 audi.increaseMaxSpeed(20);
-console.log('Increased Speed : ',audi);
+console.log('Increased Speed : ', audi);
 audi.changeYear(2019);
-console.log('Changed Year : ',audi);
+console.log('Changed Year : ', audi);
 const driver1 = {
     name: 'Anatoliy',
     surname: 'Mozgin',
@@ -203,37 +204,39 @@ const driver1 = {
     licenceNumber: '000238746863'
 }
 audi.addDriver(driver1);
-console.log('Added driver : ',audi);
+console.log('Added driver : ', audi);
 
 
 // -створити класс/функцію конструктор попелюшка з полями ім'я, вік, розмір ноги. Створити масив з 10 попелюшок.
-function Cinderella (name,age,footSize){
+function Cinderella(name, age, footSize) {
     this.name = name;
     this.age = age;
     this.footSize = footSize;
 }
+
 let cinderellas = [
-    new Cinderella('Ariel',16,36),
-    new Cinderella('Tiana',18,35),
-    new Cinderella('Moana',17,38),
-    new Cinderella('Mulan',18,39),
-    new Cinderella('Belle',15,40),
-    new Cinderella('Cinderella',16,34),
-    new Cinderella('Rapunzel',16,37),
-    new Cinderella('Merida',15,41),
-    new Cinderella('Jasmine',17,42),
-    new Cinderella('Aurora',18,43),
+    new Cinderella('Ariel', 16, 36),
+    new Cinderella('Tiana', 18, 35),
+    new Cinderella('Moana', 17, 38),
+    new Cinderella('Mulan', 18, 39),
+    new Cinderella('Belle', 15, 40),
+    new Cinderella('Cinderella', 16, 34),
+    new Cinderella('Rapunzel', 16, 37),
+    new Cinderella('Merida', 15, 41),
+    new Cinderella('Jasmine', 17, 42),
+    new Cinderella('Aurora', 18, 43),
 ]
 
 // Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
-class Prince{
+class Prince {
     constructor(name, age, shoesSize) {
         this.name = name;
         this.age = age;
         this.shoesSize = shoesSize;
     }
 }
-const prince = new Prince('Charming',18, 34);
+
+const prince = new Prince('Charming', 18, 34);
 //     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
 for (const princess of cinderellas) {
     if (princess.footSize === prince.shoesSize) {
