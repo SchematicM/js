@@ -71,38 +71,42 @@ function Car(model, brand, year, maxSpeed, engineCapacity) {
     this.year = year;
     this.maxSpeed = maxSpeed;
     this.engineCapacity = engineCapacity;
-}
-
-// додати в об'єкт функції:
-// -- drive () - яка виводить в консоль `їдемо зі швидкістю ${максимальна швидкість} на годину`
-Car.prototype.drive = function () {
-    console.log(`Drive with the speed ${this.maxSpeed} per hour`);
-}
-// -- info () - яка виводить всю інформацію про автомобіль в форматі `назва поля - значення поля`
-Car.prototype.info = function () {
-    console.log(`
+    this.drive = function () {
+        console.log(`Drive with the speed ${this.maxSpeed} per hour`);
+    }
+    this.info = function () {
+        console.log(`
     model : ${this.model};
     brand : ${this.brand};
     year : ${this.year};
     maxSpeed  : ${this.maxSpeed};
     engineCapacity : ${this.engineCapacity};`);
-}
-// -- increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed
-Car.prototype.increaseMaxSpeed = function (newSpeed) {
-    try {
-        return this.maxSpeed += newSpeed;
-    } catch (e) {
-        console.error(e)
+    }
+    this.increaseMaxSpeed = function (newSpeed) {
+        try {
+            return this.maxSpeed += newSpeed;
+        } catch (e) {
+            console.error(e)
+        }
+    }
+    this.changeYear = function (newYear) {
+        if (newYear < 1886 && newYear > 2023) {
+            throw new Error('There were no cars, produced this year! ')
+        }
+        return this.year = newYear;
     }
 }
+
+// додати в об'єкт функції:
+// -- drive () - яка виводить в консоль `їдемо зі швидкістю ${максимальна швидкість} на годину`
+
+// -- info () - яка виводить всю інформацію про автомобіль в форматі `назва поля - значення поля`
+
+// -- increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed
+
 // -- changeYear (newValue) - змінює рік випуску на значення newValue //1886-2022
 
-Car.prototype.changeYear = function (newYear) {
-    if (newYear < 1886 && newYear > 2023) {
-        throw new Error('There were no cars, produced this year! ')
-    }
-    return this.year = newYear;
-}
+
 // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car
 Car.prototype.addDriver = function (driver) {
     this.driver = driver;

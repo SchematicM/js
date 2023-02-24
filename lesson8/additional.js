@@ -24,31 +24,39 @@
 //         bs: 'harness real-time e-markets'
 // }
 // }
-function Person(id, name, username, email, street, suite, city, zipcode, lat, lng, phone, website, companyName, catchPhrase, bs) {
+function Geo (  lat, lng ){
+    this.lat = lat;
+    this.lng = lng;
+}
+function Address(street, suite, city, zipcode, geo){
+    this.street = street;
+    this.suite = suite;
+    this.city = city;
+    this.zipcode = zipcode;
+    this.geo = geo;
+}
+function  Company (name, catchPhrase, bs){
+    this.name = name;
+    this.catchPhrase = catchPhrase;
+    this.bs = bs;
+}
+function Person(id, name, username, email,street, suite, city, zipcode, lat, lng, phone, website, companyName, catchPhrase, bs) {
 
     this.id = id;
     this.name = name;
     this.username = username;
     this.email = email;
-    this.address =
-        {
-            street, suite, city, zipcode,
-            geo:
-                {
-                    lat, lng
-                }
-        };
+    this.address = new Address(street, suite, city, zipcode, new Geo(lat,lng));
     this.phone = phone;
     this.website = website;
-    this.company = {
-        name: companyName,
-        catchPhrase, bs
-    }
+    this.company = new Company(companyName, catchPhrase, bs);
 
 }
 
-const person = new Person(1, 'Marta', 'Khoma', 'mkhoma@test.com', 'Liberty Street', 'apt.54', 'Lviv', '79000', '-37.3159', '81.1496',
-    '+380990000000', 'owu.edu.ua', 'Okten', 'You learn, we happy', 'harness real-time education');
+const person = new Person(1, 'Marta', 'Khoma', 'mkhoma@test.com',
+'Liberty Street', 'apt.54', 'Lviv', '79000', '-37.3159', '81.1496',
+    '+380990000000', 'owu.edu.ua', 'Okten', 'You learn, we happy',
+    'harness real-time education');
 console.log(person);
 
 // -  Створити функцію конструктор / клас  який описує об'єкт тегу

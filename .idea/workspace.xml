@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5652378b-ba1b-47e0-963c-61b49dd6c7c6" name="Changes" comment="[lesson8]: implemented home task">
-      <change afterPath="$PROJECT_DIR$/lesson8/additional.js" afterDir="false" />
+    <list default="true" id="5652378b-ba1b-47e0-963c-61b49dd6c7c6" name="Changes" comment="[lesson8]: implemented additional task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson8/additional.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/additional.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson8/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +25,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="36025a0a-eff3-44b4-8b14-c95778152c53" />
+        <option name="url" value="https://github.com/SchematicM/js.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -66,14 +78,14 @@
       <recent name="$PROJECT_DIR$/lesson3/scripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.additional.js (1)">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/js/lesson8/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="additionalTasks.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lesson6/additionalTasks.js" working-dir="$PROJECT_DIR$/lesson6">
       <method v="2" />
     </configuration>
     <configuration name="additional.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lesson8/additional.js" working-dir="$PROJECT_DIR$/lesson8">
-      <method v="2" />
-    </configuration>
-    <configuration name="additional.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lesson5/additional.js" working-dir="$PROJECT_DIR$/lesson5">
       <method v="2" />
     </configuration>
     <configuration name="main.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lesson8/main.js" working-dir="$PROJECT_DIR$/lesson8">
@@ -84,11 +96,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Node.js.additional.js (1)" />
-        <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.main.js (1)" />
+        <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.additionalTasks.js" />
-        <item itemvalue="Node.js.additional.js" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +136,8 @@
       <workItem from="1676888484748" duration="615000" />
       <workItem from="1676910905860" duration="4407000" />
       <workItem from="1676997656972" duration="2720000" />
-      <workItem from="1677100112846" duration="5204000" />
+      <workItem from="1677100112846" duration="5563000" />
+      <workItem from="1677184832482" duration="1398000" />
     </task>
     <task id="LOCAL-00001" summary="[lesson1]: Added implementation of advanced task">
       <created>1675202075524</created>
@@ -231,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677000097311</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="[lesson8]: implemented additional task">
+      <created>1677149809260</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677149809260</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +271,7 @@
     <MESSAGE value="[lesson6]: fixed task with clubs, bigger then 8 logging" />
     <MESSAGE value="[lesson6]: fixing task with clubs, bigger then 8 logging" />
     <MESSAGE value="[lesson8]: implemented home task" />
-    <option name="LAST_COMMIT_MESSAGE" value="[lesson8]: implemented home task" />
+    <MESSAGE value="[lesson8]: implemented additional task" />
+    <option name="LAST_COMMIT_MESSAGE" value="[lesson8]: implemented additional task" />
   </component>
 </project>
