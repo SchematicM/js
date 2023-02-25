@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5652378b-ba1b-47e0-963c-61b49dd6c7c6" name="Changes" comment="[lesson8]: changed implementation of home task/ additional task">
-      <change afterPath="$PROJECT_DIR$/lesson9/homeTask.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9/js/additional.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9/js/homeTask.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9/js/super_additional.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9/rules.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9/styles/homeTask.css" afterDir="false" />
+    <list default="true" id="5652378b-ba1b-47e0-963c-61b49dd6c7c6" name="Changes" comment="[lesson9]: implemented hometask">
+      <change afterPath="$PROJECT_DIR$/lesson9/additional.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9/styles/additional.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson5/additional.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5/additional.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9/js/additional.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/js/additional.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9/js/super_additional.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/js/super_additional.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
