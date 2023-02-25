@@ -1,0 +1,105 @@
+div{
+    margin-top: 10px;
+}
+.course>h1, ul>h4{
+     text-align: center;
+ }
+ul {
+    font-size: 20px;
+}
+.member{
+    border-style: solid;
+    border-color: rgba(105, 105, 105, 0.44);
+    border-radius: 100px;
+}
+.simson-content{
+    display: flex;
+    flex-direction: row;
+    padding: 0 50px 0 50px;
+}
+h1{
+    text-align: center;
+}
+img{
+    max-height: 300px;
+}
+.course-duration{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.courses{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.course,.item{
+    width:49%;
+    border-style: outset;
+}
+/*---------------------------------------------------*/
+.show-hide-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;;
+    align-items: center;
+}
+button{
+    margin-right: 20px;
+    width: 100px ;
+    height: 50px;
+}
+.show-hide-block > p{
+    margin: 0px;
+}
+input {
+    width: 70%;
+    margin-top: 10px;
+}
+.submit-age-conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+
+#build-table,#submit-age{
+    margin-top: 10px;
+    position: absolute;
+    left:80%;
+    top:calc(22px*2 + 20px);
+    width: 20% ;
+    height: 22px;
+}
+#submit-age{
+    left:80%;
+    top:0;
+}
+#table-creator-container{
+    min-height: 50vh;
+}
+
+.table-parameters{
+    position: relative;
+}
+table {
+    margin-top: 10px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}

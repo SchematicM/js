@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5652378b-ba1b-47e0-963c-61b49dd6c7c6" name="Changes" comment="[lesson8]: implemented additional task">
+    <list default="true" id="5652378b-ba1b-47e0-963c-61b49dd6c7c6" name="Changes" comment="[lesson8]: changed implementation of home task/ additional task">
+      <change afterPath="$PROJECT_DIR$/lesson9/homeTask.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9/js/additional.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9/js/homeTask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9/js/super_additional.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9/rules.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9/styles/homeTask.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8/additional.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/additional.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson5/additional.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5/additional.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -73,6 +79,8 @@
       <recent name="$PROJECT_DIR$/lesson2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson9/styles" />
+      <recent name="$PROJECT_DIR$/lesson9/js" />
       <recent name="$PROJECT_DIR$/lesson3" />
       <recent name="$PROJECT_DIR$/lesson3/styles" />
       <recent name="$PROJECT_DIR$/lesson3/scripts" />
@@ -137,7 +145,7 @@
       <workItem from="1676910905860" duration="4407000" />
       <workItem from="1676997656972" duration="2720000" />
       <workItem from="1677100112846" duration="5563000" />
-      <workItem from="1677184832482" duration="1398000" />
+      <workItem from="1677184832482" duration="22272000" />
     </task>
     <task id="LOCAL-00001" summary="[lesson1]: Added implementation of advanced task">
       <created>1675202075524</created>
@@ -251,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677149809260</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="[lesson8]: changed implementation of home task/ additional task">
+      <created>1677262233585</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1677262233585</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,6 +287,19 @@
     <MESSAGE value="[lesson6]: fixing task with clubs, bigger then 8 logging" />
     <MESSAGE value="[lesson8]: implemented home task" />
     <MESSAGE value="[lesson8]: implemented additional task" />
-    <option name="LAST_COMMIT_MESSAGE" value="[lesson8]: implemented additional task" />
+    <MESSAGE value="[lesson8]: changed implementation of home task/ additional task" />
+    <option name="LAST_COMMIT_MESSAGE" value="[lesson8]: changed implementation of home task/ additional task" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lesson9/js/homeTask.js</url>
+          <line>68</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
