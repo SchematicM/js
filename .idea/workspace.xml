@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5652378b-ba1b-47e0-963c-61b49dd6c7c6" name="Changes" comment="[lesson9]: implemented hometask">
-      <change afterPath="$PROJECT_DIR$/lesson9/additional.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9/styles/additional.css" afterDir="false" />
+    <list default="true" id="5652378b-ba1b-47e0-963c-61b49dd6c7c6" name="Changes" comment="[lesson9]: implemented additional tasks">
+      <change afterPath="$PROJECT_DIR$/lesson9/js/rules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9/super_additional.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson9/js/additional.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/js/additional.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson9/js/super_additional.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/js/super_additional.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9/rules.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/rules.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -262,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677262233585</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="[lesson9]: implemented additional tasks">
+      <created>1677356657643</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1677356657643</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +292,8 @@
     <MESSAGE value="[lesson8]: implemented home task" />
     <MESSAGE value="[lesson8]: implemented additional task" />
     <MESSAGE value="[lesson8]: changed implementation of home task/ additional task" />
-    <option name="LAST_COMMIT_MESSAGE" value="[lesson8]: changed implementation of home task/ additional task" />
+    <MESSAGE value="[lesson9]: implemented additional tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="[lesson9]: implemented additional tasks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

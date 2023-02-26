@@ -262,37 +262,6 @@ usersList.forEach(user => {
 document.body.appendChild(mainDiv);
 
 
-// --------
-//     за допомоги рекурсії перебрати структуру сторінки. зробити об'єкт,
-//     всі заголовки покласти в (масив)характеристику headings,
-//   !!! y мому випадку буду перебирати замасть headings -> divBlocks, так як в даній роботі працювала без headings
-//     всі параграфи покласти в характеристику (масив)
-//     paragraphs
-//
-// ------
-let collection = {
-    divBlocks: [],
-    paragraphs: []
-};
-function mapperDivsAndParagraphs(htmlElement, collection) {
-    let divs = document.getElementsByTagName("DIV");
-    let ps = document.getElementsByTagName('p');
-    Array.prototype.forEach.call(divs, div => {
-        div.classList.forEach(divClass => collection.divBlocks.push(divClass))
-    });
-    Array.prototype.forEach.call(ps, p => collection.paragraphs.push(p.outerText));
-    return collection;
-}
-
-collection = mapperDivsAndParagraphs(document.body, collection);
-
-//console.log(usersList.length); // 10 юзерів
-collection.divBlocks.forEach(element => console.log(element));
-//console.log(collection.divBlocks.length);//191 div (19div на одного юзера + загальний div)
-collection.paragraphs.forEach(element => console.log(element));
-//console.log(collection.paragraphs.length); //180 p ( на одного юзера припадає 18 тегів p)
-
-
 //     зробити div contenteditable ввести будь яке ціле слово.
 //     та при натисканні табуляції перетворити його на подвійний тег
 // asd ->tab-> <asd></asd>
