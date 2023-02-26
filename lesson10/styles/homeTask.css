@@ -1,0 +1,45 @@
+input {
+    margin-right: 10px;
+}
+
+
+.increase-number {
+    display: flex;
+    margin: 20px 20px 20px 0;
+    width: 200px;
+    height: 200px;
+    background: #676767;
+    color: #dddddd;
+    font-size: 108px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    margin-top: 20px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.buttons-container{
+    display: flex;
+    justify-content: center;
+}
+.sessions-task{
+    text-align: center;
+}
+
+.buttons-container>button{
+    margin:5px 20px;
+}
