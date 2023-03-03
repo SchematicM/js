@@ -32,6 +32,12 @@ td, th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+td:nth-child(1), td:nth-child(3){
+    width: 15vw;
+}
+td:nth-child(2){
+    width: 70vw;
+}
 .buttons-container{
     display: flex;
     justify-content: center;

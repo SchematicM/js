@@ -1,49 +1,22 @@
 // Стоврити форму з трьома полями для name,sruname,age та кнопкою.
 // При натисканні на кнопку зчитати данні з полів, та вивести об'єкт в документ.
 // Іншими словами : заповниои форму, натиснули кнопку, під формою з'явився блок з вашим об'єктом
-let personDiv = document.createElement('div');
-personDiv.classList.add('person-form-results');
-let form = document.createElement('form');
-form.setAttribute('id', 'person-form');
-let inputName = document.createElement('input');
-inputName.setAttribute('id', 'name');
-inputName.setAttribute('placeholder', 'Name');
-inputName.setAttribute('minlength', '3');
-inputName.setAttribute('type', 'text');
 
-let inputSurname = document.createElement('input');
-inputSurname.setAttribute('id', 'surname');
-inputSurname.setAttribute('placeholder', 'Surname');
-inputSurname.setAttribute('type', 'text');
-inputName.setAttribute('minlength', '3');
-
-
-let inputAge = document.createElement('input');
-inputAge.setAttribute('id', 'age');
-inputAge.setAttribute('placeholder', 'Age');
-inputAge.setAttribute('type', 'number');
-inputAge.setAttribute('min', '1');
-inputAge.setAttribute('max', '110');
-
-
-let submitButton = document.createElement('button');
-submitButton.innerText = 'Submit';
-form.append(inputName, inputSurname, inputAge, submitButton);
-personDiv.append(form);
-document.body.appendChild(personDiv);
-
-document.forms['person-form'].onsubmit = function (event) {
+const personForm = document.forms.namedItem('person');
+personForm.onsubmit = function (event) {
     event.preventDefault();
+    const personDiv = document.getElementById("person");
     let divFormValues = document.createElement('div');
-    divFormValues.classList.add('onsubmit-form-results')
+    divFormValues.classList.add('onsubmit-form-results');
     try {
         document.body.getElementsByClassName('onsubmit-form-results')[0].remove();
     } catch (TypeError) {
     } finally {
-        if (inputName.value && inputSurname.value && inputAge.value) {
-            divFormValues.innerHTML = `<p>Name: ${inputName.value}<br> 
-                        Surname: ${inputSurname.value}<br>
-                        Age: ${inputAge.value}</p>`
+
+        if (personForm.username.value && personForm.surname.value && personForm.age.value) {
+            divFormValues.innerHTML = `<p>Name: ${personForm.username.value}<br> 
+                        Surname: ${personForm.surname.value}<br>
+                        Age: ${personForm.age.value}</p>`
         } else {
             divFormValues.innerHTML = `<h4>Some fields were empty!</h4>`
             divFormValues.style.color = 'red';
@@ -55,21 +28,11 @@ document.forms['person-form'].onsubmit = function (event) {
 // є сторінка, на якій є блок, я кому знаходиьтся цифра.
 // написати код, який при кожному перезавантажені сторінки буде додавати до неї +1
 
-let numberTaskDiv = document.createElement('div');
-numberTaskDiv.classList.add('change-number-task');
-
-let numbDiv = document.createElement('div');
-numbDiv.classList.add('increase-number');
-
+const numbDiv = document.getElementsByClassName('increase-number')[0];
 if (!localStorage.getItem('number')) {
     localStorage.setItem('number', '1');
 }
 numbDiv.innerText = localStorage.getItem('number');
-let clearButton = document.createElement('button');
-clearButton.innerText = 'Clear local Storage and refresh';
-
-numberTaskDiv.append(numbDiv, clearButton);
-document.body.appendChild(numberTaskDiv);
 
 window.onload = function () {
     numbDiv.innerText = localStorage.getItem('number');
@@ -77,13 +40,11 @@ window.onload = function () {
     localStorage.setItem('number', numb.toString());
 }
 
+const clearButton = document.querySelector(".change-number-task>button");
 clearButton.onclick = function () {
     localStorage.clear();
     location.reload()
 }
-
-
-// =========================
 
 //     зробити масив на 100 об'єктів та дві кнопки prev next
 // при завантажені сторінки з'являються перші 10 об'єктів.
@@ -593,88 +554,42 @@ let locations = [
         type: "oblast"
     }
 ];
+
 if (!localStorage.getItem('page')) {
     localStorage.setItem('page', '1');
 }
-let objectsDiv = document.createElement('div');
-objectsDiv.classList.add('objects-container');
-let table = document.createElement('table');
-// const th = document.createElement('th');
-// for (const key in locations[0]) {
-//     const td = document.createElement('td');
-//     td.innerText = key;
-//     th.appendChild(td);
-// }
-// table.appendChild(th);
-//
-// for (let i = 0; i < 10; i++) {
-//     let tr = document.createElement('tr');
-//     for (let j = 0; j<3;j++) {
-//         let td = document.createElement('td');
-//         td.classList.add('item');
-//         tr.appendChild(td);
-//     }
-//     table.appendChild(tr)
-// }
 
-page = +localStorage.getItem('page');
-fillTablePage(page);
-const buttonsDiv = document.createElement('div');
-buttonsDiv.classList.add('buttons-container');
-let nextButton = document.createElement('button');
-nextButton.innerHTML = `<i class="fa fa-chevron-right" aria-hidden="true"></i>`;
-
-
-let previousButton = document.createElement('button');
-previousButton.innerHTML = `<i class="fa fa-chevron-left" aria-hidden="true"></i>`;
-buttonsDiv.append(previousButton,nextButton);
-
-objectsDiv.append(table);
-document.body.append(objectsDiv, buttonsDiv);
-
-
-
+let tr = document.querySelectorAll('tr>td');
+fillTablePage(parseInt(localStorage.getItem('page')));
 function fillTablePage(page) {
-    const tr = document.createElement('tr');
-    for (const key in locations[0]) {
-        const th = document.createElement('th');
-        th.innerText = key.toUpperCase();
-        tr.appendChild(th);
-    }
-    table.appendChild(tr);
+    let counter = 0;
     for (let i = (page - 1) * 10; i < page * 10; i++) {
         let location = locations[i];
-        let tr = document.createElement('tr');
+        let tdArray = document.querySelectorAll('tr>td');
         for (const key in location) {
-            let td = document.createElement('td');
-            td.innerText = location[key];
-            tr.appendChild(td);
+            tdArray[counter].innerText = location[key];
+            counter++;
         }
-        table.appendChild(tr);
     }
 }
-
-nextButton.onclick = function () {
+const nextButton = document.getElementById('next');
+console.log(nextButton);
+nextButton.onclick = function (e) {
     let page = parseInt(localStorage.getItem('page')) + 1;
     if(page<=Math.ceil(locations.length/10) ){
         localStorage.setItem('page', page.toString());
-        table.remove();
         fillTablePage(page);
-        location.reload();
     }
 }
-
-previousButton.onclick = function (){
+const previousButton = document.getElementById('previous');
+previousButton.onclick = function (e){
     let page = parseInt(localStorage.getItem('page')) - 1;
     if(page>0) {
         localStorage.setItem('page', page.toString());
-        table.remove();
         fillTablePage(page);
-        location.reload();
     }
 }
 
-// ==========================
 // Є сторінка homeTask.html (назва довільна), при відвідуванні якої в локальне сховще,
 // в масив sessions зберігається інформація про дату та час відвідування сторінки.
 // Є ще сторінка sessions.html (назва довільна), при відвідуванні якої потрібно відмалювати
@@ -689,7 +604,6 @@ if (!localStorage.getItem('sessions')) {
     localStorage.setItem('sessions', JSON.stringify(sessions));
 }
 
-let sessionsDiv = document.createElement('div');
-sessionsDiv.classList.add('sessions-task');
+let sessionsDiv = document.getElementsByClassName('sessions-task')[0];
 sessionsDiv.innerHTML = `<a href = "sessions.html" target = "_blank"> See my all sessions</a>`
 document.body.appendChild(sessionsDiv);

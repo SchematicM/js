@@ -42,7 +42,7 @@ const maxElement = (array) => {
 };
 console.log('maxElement([1,5,-12,45,7,-9]): ', maxElement([1, 5, -12, 45, 7, -9]))
 // - створити функцію яка повертає найменьше число з масиву
-//the same implementation is in homeTask.js from home tasks
+//the same implementation is in NotForCheck.js from home tasks
 
 // const minElement = (array) => {
 //     let min = array[0];
@@ -55,7 +55,7 @@ console.log('maxElement([1,5,-12,45,7,-9]): ', maxElement([1, 5, -12, 45, 7, -9]
 // };
 // console.log('minElement([1,5,-12,45,7,-9]): ', minElement([1, 5, -12, 45, 7, -9]))
 // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
-//the same implementation is in homeTask.js from home tasks
+//the same implementation is in NotForCheck.js from home tasks
 
 // - Дано натуральное число n. Выведите все числа от 1 до n.
 const printNumbers = (n) => {
