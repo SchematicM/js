@@ -42,7 +42,7 @@ const liList = document.querySelectorAll('li>a');
 burgerMenu.addEventListener("click", () => {
     menu.classList.toggle("show");
 });
-liList.forEach(li=>li.addEventListener('click',function (){
+liList.forEach(li => li.addEventListener('click', function () {
     menu.classList.toggle("show");
 }));
 
@@ -186,7 +186,6 @@ function navigateDOM(element) {
     let index = 0;
 
 
-
     function navigateForward() {
         children = currentElement.children;
         if (children.length > 0) {
@@ -261,6 +260,18 @@ function showSlides(n) {
 //     Завдання важке для розуміння, але дуже легке в реалізації. Тут треба буде погуглити
 // *** При виділені сегменту тексту на сторінці він стає жирний/курсивний/або якось іншим способом змінює свій стан
 // Получаем текущий объект выделения
+const contentDiv = document.querySelector('.main-content');
+
+contentDiv.addEventListener("mouseup", function () {
+    let selectedText = window.getSelection().toString();
+    if (selectedText.length > 0) {
+        document.execCommand("bold", false, null);
+    }
+});
+contentDiv.addEventListener("mousedown", function() {
+    document.execCommand("bold", false, null);
+});
+
 
 
 

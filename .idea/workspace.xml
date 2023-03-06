@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5652378b-ba1b-47e0-963c-61b49dd6c7c6" name="Changes" comment="[lesson10]: changed advanced HTML despite 1 task;">
+    <list default="true" id="5652378b-ba1b-47e0-963c-61b49dd6c7c6" name="Changes" comment="[lesson10]: fixed burger menu;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson10/additional.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/additional.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson10/js/additional.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10/js/additional.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,7 +148,7 @@
       <workItem from="1677690588896" duration="17893000" />
       <workItem from="1677777725749" duration="6402000" />
       <workItem from="1677858130424" duration="12345000" />
-      <workItem from="1677886695445" duration="29157000" />
+      <workItem from="1677886695445" duration="31420000" />
     </task>
     <task id="LOCAL-00001" summary="[lesson1]: Added implementation of advanced task">
       <created>1675202075524</created>
@@ -310,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678099350679</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="[lesson10]: fixed burger menu;">
+      <created>1678099807551</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1678099807551</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +346,8 @@
     <MESSAGE value="[lesson9]: completed super_additional task" />
     <MESSAGE value="[lesson10]: changed completion of home task using prepared in advanced HTML;" />
     <MESSAGE value="[lesson10]: changed advanced HTML despite 1 task;" />
-    <option name="LAST_COMMIT_MESSAGE" value="[lesson10]: changed advanced HTML despite 1 task;" />
+    <MESSAGE value="[lesson10]: fixed burger menu;" />
+    <option name="LAST_COMMIT_MESSAGE" value="[lesson10]: fixed burger menu;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
