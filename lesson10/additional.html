@@ -1,11 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>additional</title>
+    <script src="https://kit.fontawesome.com/c3fd170405.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/additional.css">
 </head>
 <body>
-<script src="js/additional.js"></script>
+<nav>
+    <div class="burger-menu">
+        <div class="burger-wrapper">
+            <div class="burger">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+    <ul class="menu">
+        <li><a href="#word-check">Word check</a></li>
+        <li><a href="#sentence-check">Sentence check</a></li>
+        <li><a href="#comments">Comments</a></li>
+        <li><a href="#magic-button">Magic button</a></li>
+        <li><a href="#filter-users">Users filter</a></li>
+        <li><a href="#navigation-dom">DOM navigation</a></li>
+        <li><a href="#carousel">Carousel</a></li>
+    </ul>
+</nav>
+<div class="main-content">
+    <div id="word-check">
+        <form name="wordCheck">
+            <input name="word"
+                   type="text"
+                   placeholder="Enter word"
+                   minlength="3"
+                   required>
+            <button type="submit" name="check">Submit</button>
+        </form>
+    </div>
+    <div id="sentence-check">
+        <form name="sentenceCheck">
+            <input name="sentence"
+                   type="text"
+                   placeholder="Enter sentence"
+                   minlength="3"
+                   required>
+            <button type="submit" name="check">Submit</button>
+        </form>
+    </div>
+    <div id="comments">
 
+    </div>
+    <div id="magic-button">
+        <button>Click on me and I will disappear !</button>
+    </div>
+    <div id="filter-users">
+        <div class="users">
+
+        </div>
+        <form name="filter-users">
+            <label><input type="checkbox" name="filter" value="false">Status:false</label>
+            <label><input type="checkbox" name="filter" value="29">older than 29</label>
+            <label>
+                <input type="checkbox" name="filter" value="Kyiv">City:Kyiv</label>
+        </form>
+    </div>
+    <div id = "navigation-dom">
+<div class="navigation-buttons"></div>
+        <div class = "result">
+
+        </div>
+
+    </div>
+    <div id ="carousel" class="slideshow-container">
+
+        <div class="mySlides fade">
+            <img src="images/img.png" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/img_1.png" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/img_2.png" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/img_3.png" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="images/img_4.png" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+
+
+</div>
+<script src="js/additional.js"></script>
+<script src="js/additional_elements_info.js"></script>
 </body>
 </html>
