@@ -38,9 +38,13 @@ sentenceForm.onsubmit = function (e) {
 // - Создайте меню, которое раскрывается/сворачивается при клике
 const burgerMenu = document.querySelector(".burger>i");
 const menu = document.querySelector(".menu");
+const liList = document.querySelectorAll('li>a');
 burgerMenu.addEventListener("click", () => {
     menu.classList.toggle("show");
 });
+liList.forEach(li=>li.addEventListener('click',function (){
+    menu.classList.toggle("show");
+}));
 
 // - Создать список комментариев , пример объекта коментария - {title : 'lorem', body:'lorem ipsum dolo sit ameti'}.
 let comments = [
