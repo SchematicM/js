@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5652378b-ba1b-47e0-963c-61b49dd6c7c6" name="Changes" comment="[lesson10]: added implementation for the last additional task;">
-      <change afterPath="$PROJECT_DIR$/lesson11/additional.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11/js/user-details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11/js/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11/user-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11/users.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson12/hometask.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniProject/task.txt" afterDir="false" />
+    <list default="true" id="5652378b-ba1b-47e0-963c-61b49dd6c7c6" name="Changes" comment="[lesson11]: added implementation for the home task; added basic tasks for completing in future;">
+      <change afterPath="$PROJECT_DIR$/lesson11/additional.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/js/additional.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/styles/additional.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson11/additional.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson11/js/user-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson11/js/user-details.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,11 +78,11 @@
       <recent name="$PROJECT_DIR$/lesson2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson11" />
+      <recent name="$PROJECT_DIR$/lesson11/styles" />
       <recent name="$PROJECT_DIR$/lesson11/js" />
       <recent name="$PROJECT_DIR$/lesson10/js" />
       <recent name="$PROJECT_DIR$/lesson9/styles" />
-      <recent name="$PROJECT_DIR$/lesson9/js" />
-      <recent name="$PROJECT_DIR$/lesson3" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -156,7 +154,7 @@
       <workItem from="1677886695445" duration="32091000" />
       <workItem from="1678103577884" duration="287000" />
       <workItem from="1678125264077" duration="1302000" />
-      <workItem from="1678556440668" duration="2681000" />
+      <workItem from="1678556440668" duration="10571000" />
     </task>
     <task id="LOCAL-00001" summary="[lesson1]: Added implementation of advanced task">
       <created>1675202075524</created>
@@ -333,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678103091379</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="[lesson11]: added implementation for the home task; added basic tasks for completing in future;">
+      <created>1678559343935</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1678559343936</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,7 +368,8 @@
     <MESSAGE value="[lesson10]: changed advanced HTML despite 1 task;" />
     <MESSAGE value="[lesson10]: fixed burger menu;" />
     <MESSAGE value="[lesson10]: added implementation for the last additional task;" />
-    <option name="LAST_COMMIT_MESSAGE" value="[lesson10]: added implementation for the last additional task;" />
+    <MESSAGE value="[lesson11]: added implementation for the home task; added basic tasks for completing in future;" />
+    <option name="LAST_COMMIT_MESSAGE" value="[lesson11]: added implementation for the home task; added basic tasks for completing in future;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
